@@ -62,6 +62,7 @@ public class Main {
             var workingHoursTotal2 = namberEmployees2 * 8;
             System.out.println("Если в компании работает " + namberEmployees2 + " чел., то всего " + workingHoursTotal2 +
                     " часов работы может быть поделено между сотрудниками");
+
         }
         }
     }
