@@ -48,7 +48,20 @@ public class Main {
             System.out.println("Общий вес боксеров " + boxersWeightTwo + " кг");
             var boxersWeightDifference = boxersWeightFirst - boxersWeightSecond;
             System.out.println("Разница в весе боксеров " + boxersWeightDifference + " кг");
-
+            System.out.println("homework-3 exercise 7");
+            var boxersWeightDifference2 = boxersWeightSecond - boxersWeightFirst;
+            System.out.println("Первый способ. Второй боксер тяжелее на " + boxersWeightDifference2 + " кг");
+            var boxersWeightDifference3 = boxersWeightSecond % boxersWeightFirst;
+            System.out.println("Второй способ. Второй боксер тяжелее на " + boxersWeightDifference3 + " кг");
+            System.out.println("homework-3 exercise 8");
+            var workingHoursTotal = 640;
+            var workingHoursDay = 8;
+            var namberEmployees = workingHoursTotal / workingHoursDay;
+            System.out.println("Всего работников в компании " + namberEmployees + " чел.");
+            var namberEmployees2 = namberEmployees + 94;
+            var workingHoursTotal2 = namberEmployees2 * 8;
+            System.out.println("Если в компании работает " + namberEmployees2 + " чел., то всего " + workingHoursTotal2 +
+                    " часов работы может быть поделено между сотрудниками");
         }
         }
     }
